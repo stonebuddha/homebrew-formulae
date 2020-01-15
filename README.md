@@ -1,15 +1,15 @@
-# Stonebuddha Formulae
+# Homebrew Formulae
 
-## How do I install these formulae?
-`brew install stonebuddha/formulae/<formula>`
+A [Homebrew tap] for some software-verification tools.
 
-Or `brew tap stonebuddha/formulae` and then `brew install <formula>`.
+[Homebrew tap]: https://github.com/Homebrew/brew/blob/master/docs/brew-tap.md
 
-Or install via URL (which will not receive updates):
+## Usage
 
-```
-brew install https://raw.githubusercontent.com/stonebuddha/homebrew-formulae/master/Formula/<formula>.rb
-```
+Tap this repository:
 
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+    brew tap stonebuddha/formulae
+
+Install the packages it contains like any other Homebrew package:
+
+    brew install z3@4.8.6
