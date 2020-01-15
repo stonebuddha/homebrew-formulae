@@ -7,9 +7,7 @@ class Z3AT486 < Formula
 
   bottle do
     cellar :any
-    sha256 "a3ce513ca71645a6c71d3f5b0e60ccb27171a8b9a019287e170efe817fb4a76b" => :catalina
-    sha256 "3f0eb432537467e69e9e4990ab6511b795c68557ab276d9e11325ece14c68718" => :mojave
-    sha256 "4cfd76bc84c1b51b2d1450560eb67f1b467c1ebba516c84e617cc099ff579ee7" => :high_sierra
+    sha256 "b42f22922098bc7506faa323c9294af920335932921cf900c28d1c7a905f1d21" => :mojave
   end
 
   depends_on "python"
