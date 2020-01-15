@@ -1,4 +1,4 @@
-class Z3At486 < Formula
+class Z3AT486 < Formula
   desc "High-performance theorem prover"
   homepage "https://github.com/Z3Prover/z3"
   url "https://github.com/Z3Prover/z3/archive/z3-4.8.6.tar.gz"
