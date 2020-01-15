@@ -6,7 +6,7 @@ class Z3AT486 < Formula
   head "https://github.com/Z3Prover/z3.git"
 
   bottle do
-    root_url "https://github.com/stonebuddha/sv-opam/raw/master"
+    root_url "https://github.com/stonebuddha/homebrew-formulae/raw/master"
     cellar :any
     sha256 "b42f22922098bc7506faa323c9294af920335932921cf900c28d1c7a905f1d21" => :mojave
   end
