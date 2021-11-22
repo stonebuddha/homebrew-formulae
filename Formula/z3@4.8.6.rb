@@ -6,7 +6,7 @@ class Z3AT486 < Formula
   head "https://github.com/Z3Prover/z3.git"
 
   bottle do
-    root_url "https://stonebuddha.github.io/dist"
+    root_url "https://cs.cmu.edu/~diw3/taps"
     sha256 cellar: :any, mojave: "b42f22922098bc7506faa323c9294af920335932921cf900c28d1c7a905f1d21"
   end
 
