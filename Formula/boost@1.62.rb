@@ -5,8 +5,6 @@ class BoostAT162 < Formula
   sha256 "36c96b0f6155c98404091d8ceb48319a28279ca0333fba1ad8611eb90afb2ca0"
   license "BSL-1.0"
 
-  keg_only :versioned_formula
-
   depends_on "icu4c"
 
   uses_from_macos "bzip2"
@@ -45,7 +43,7 @@ class BoostAT162 < Formula
       --libdir=#{lib}
       -d2
       -j#{ENV.make_jobs}
-      --layout=tagged-1.66
+      --layout=tagged
       --user-config=user-config.jam
       -sNO_LZMA=1
       -sNO_ZSTD=1
